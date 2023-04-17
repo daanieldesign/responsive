@@ -6,6 +6,13 @@
     padding: 15px;
     background-color: green;
 }
+
+.nadpis{
+    text-align: center;
+    font-family: Arial;
+
+}
+
 .sidebar{
     box-sizing: border-box;
     width: 100%;
@@ -15,18 +22,7 @@
     background-color: coral;
 }
 
-@media screen and (min-width: 900px) {
-    .clanek{
-        width: 79%;
-        float: left;
-    }
-    .sidebar{
-        width: 19%;
-        float: right;
-    }
-}
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .clanek{
         width: 79%;
         float: left;
